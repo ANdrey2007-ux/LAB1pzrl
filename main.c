@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include "calc.h"
 
 int isint(char* num)
 {
@@ -13,26 +14,6 @@ int isint(char* num)
 		}
 	}
 	return 1;
-}
-
-int sum(int num1, int num2)
-{
-	return num1 + num2;
-}
-
-int dif(int num1, int num2)
-{
-	return num1 - num2;
-}
-
-int rem(int num1, int num2)
-{
-	return num1 * num2;
-}
-
-int prod(int num1, int num2)
-{
-	return num1 % num2;
 }
 
 int main(int argc, char** argv)
